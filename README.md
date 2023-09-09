@@ -15,13 +15,13 @@ never use git to store the TF state
 
 use this style to set dependencies:
 
-´´´
+```
 resource_group_name      = azurerm_resource_group.this.name
-´´´
+```
 
 and never this:
-´´´
+```
 resource_group_name      = var.resource_group-name
-´´´
+```
 
 
